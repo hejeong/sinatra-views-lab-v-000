@@ -5,13 +5,13 @@ class App < Sinatra::Base
 	end
 
 	get '/hello' do
-		erb :index
+		erb :hello
 	end
 
 	get '/' do
 		erb :index
 	end
-	
+
 	get '/' do
 		erb :index
 	end
